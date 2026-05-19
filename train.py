@@ -14,10 +14,10 @@ df = pd.DataFrame(data)
 x =  df[["hours"]]
 y = df["marks"]
 
-# gtrain model
+# train model
 model = train_model(x,y)
 
 # save model
 joblib.dump(model,"models/model.pkl")
 
-print("Model Trained Successfully")
+print("Model Trainea Sucessfully")
